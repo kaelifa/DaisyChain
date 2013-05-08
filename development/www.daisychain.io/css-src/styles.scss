@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /**
- * @projectDescription    kaelifa.com
+ * @projectDescription    DaisyChain
  *               @file    styles.css
  *             @author    Kristina Auckland <kristina.auckland@gmail.com>
  *            @version    2.0
- *               @date    2013-04-23 19:45
+ *               @date    2013-05-08 14:03
  */
 
 // * NB. This is the master Sass file which imports all the partials.
@@ -61,26 +61,9 @@
 
 /** @section     Modules */
 @import "sassy-buttons";
-// @import "partials/modules/media";
-// @import "partials/modules/media-image";
-// @import "partials/modules/media-description";
-// @import "partials/modules/media-title";
-// @import "partials/modules/intro";
-// @import "partials/modules/main-content";
-// @import "partials/modules/sub-content";
-// @import "partials/modules/contact";
-// @import "partials/modules/social";
-// @import "partials/modules/icon";
-// @import "partials/modules/footer-copy";
-// @import "partials/modules/latest-posts";
-// @import "partials/modules/blog-post";
-// @import "partials/modules/about-the-author";
-// @import "partials/modules/author-description";
-// @import "partials/modules/data-list";
-// @import "partials/modules/comments";
 
 /** @section     Plugins */
-@import "partials/plugins/disqus";
+// @import "partials/plugins/XXXX";
 
 /** @section     Helpers */
 // @import "partials/helpers/ir";
