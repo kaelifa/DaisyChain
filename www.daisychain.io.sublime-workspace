@@ -1,0 +1,1476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"list",
+				"list-style:   (property)"
+			],
+			[
+				"padding",
+				"padding-left:   (property)"
+			],
+			[
+				"forms",
+				"forms"
+			],
+			[
+				"ele",
+				"elements_list"
+			],
+			[
+				"djang",
+				"django-templates/"
+			],
+			[
+				"style",
+				"style_guide"
+			],
+			[
+				"cu",
+				"current_datetime"
+			],
+			[
+				"Dog",
+				"DogGender"
+			],
+			[
+				"dae",
+				"datetime"
+			],
+			[
+				"Show",
+				"ShowAddress"
+			],
+			[
+				"In",
+				"IntegerField"
+			],
+			[
+				"CH",
+				"CharField"
+			],
+			[
+				"nu",
+				"null"
+			],
+			[
+				"Ma",
+				"ManyToManyField"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"po",
+				"post_code"
+			],
+			[
+				"sho",
+				"show_secretary"
+			],
+			[
+				"Lo",
+				"Location"
+			],
+			[
+				"FOr",
+				"ForeignKey"
+			],
+			[
+				"Cl",
+				"ClassType"
+			],
+			[
+				"For",
+				"ForeignKey"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"EE",
+				"E5E5E5"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"content-e",
+				"content-elementbar"
+			],
+			[
+				"font-",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 370.0,
+		"selected_items":
+		[
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"lorem",
+				"Snippet: lorem - Medium paragraph <p>"
+			],
+			[
+				"lor",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa in",
+				"Package Control: Install Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"p in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"sy py",
+				"Set Syntax: Python"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"s h",
+				"Snippet: html"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"lo",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"quick",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"mana",
+				"Fetch: Manage"
+			],
+			[
+				"zen",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"zen ",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setting de",
+				"Preferences: Settings - Default"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"cssco",
+				"Sort via CSScomb"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 452.0
+	},
+	"console":
+	{
+		"height": 275.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/index.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/index.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/company-director-mortgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/director-morgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/director-mortgage.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/director-mortgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/director-property-loan.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/company-director-mortgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/director-morgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/director-mortgage.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/director-mortgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/director-property-loan.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/UK-mortgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/topics/how-much.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/topics/how-much.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/terms.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/faq.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/aboutus.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/contact.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/topics/what-fees.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/topics/what-kind.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/topics/whats-involved.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/Search/searchindex.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/mortgage-planner.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_layouts/default.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_includes/specialfeatures.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_maintenance.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_includes/buythathousetoday.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_includes/callus.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/default-layout/_layout-header.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/default-layout/_layout-footer.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/navigation/_planner.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_includes/navsidebar.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/mortgage-planner.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/contact.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/navigation/_sidebar.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/faq.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_includes/navplanner.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_layouts/specialfeatures.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_layouts/callus.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_config.yml",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_layouts/call_us.html",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/elements/_hx.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/modules/_highlight-brand.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/navigation/_primary.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/aboutus.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/terms.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/searchindex.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/Search/UK-mortgages.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/topics/what-fees.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/topics/what-kind.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/topics/whats-involved.htm",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/_site/css/styles.css",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css/styles.css",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/modules/_list-star.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/modules/_highlight.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/mixins/_font-stacks.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/modules/_call-us.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/styles.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/modules/_special-features.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/variables/_colour-palette.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/elements/_a.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/modules/_logo.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/css-src/partials/helpers/_hidden.scss",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/it-contractor-mortgages.co.uk.sublime-project",
+		"/Users/kristina/Sites/ClearAttitude/HomelineMortgages/development/jekyll/director-mortgages.co.uk/config.rb",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/config.rb",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/elements/_hx.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/elements/_a.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/elements/_time.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/mixins/_font-stacks.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/modules/_location-date.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/www/css-src/partials/modules/_profile-date.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_normalize.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/kitchen-sink.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_table.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_strong.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_nav.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_hx.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_html.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_hr.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_form.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_em.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_body.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_a.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/development/_style-guide.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/development/_dev-layout.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/development/_debug.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_wrapper.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_main.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_header.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_footer.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/styles.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/humans.txt",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/config.rb",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/development/config.rb",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/README.md",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/AutoCopyright.sublime-settings",
+		"/Users/kristina/Desktop/kss/example/app.rb",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/index.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/config.rb",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/settings/_susy.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/mixins/_font-sizing.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/mixins/_rgba-bg.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/js/scripts.js",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/mixins/_font-stacks.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/style-guide.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/variables/_colour-palette.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/js/vendor/jquery.min.js",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/js/jquery.min.js",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css/styles.css",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/grid.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/kaleistyleguide/js/config.js",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/kaleistyleguide/css/fixie-demo.css",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_border-box.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/navigation/_primary.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/dev/_debug.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/dev/_dev-layout.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_selection.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/media/_print.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_body.scss",
+		"/Users/kristina/Sites/playground/vanilla/dev/vanillaBean/index.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla Build/404.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla Build/humans.txt",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+			"<project>",
+			"<project>,",
+			"<project>",
+			"",
+			"<project>",
+			"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials",
+			"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src",
+			"waggytails/waggytails/django-templates",
+			"/waggytails/waggytails/django-templates",
+			"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/h5bp/_normalize.scss",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Shared",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Product",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Shared",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Product",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\js",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\js",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Sites\\continuity\\core\\nodetypes",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Sites\\continuity\\core",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-demo-installation-repo\\c5-demo-installation\\brands\\partner-portal\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-demo-installation-repo\\c5-demo-installation\\brands\\partner-portal\\css",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\css",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\js",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\js",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ti meet your needs",
+			" ti ",
+			" ti",
+			"ti",
+			"<h3>Company Director's Limited Status Scheme</h3>",
+			"<p>Then you might be eligible for the Company Director's Limited Status Scheme, allowing you a maximum loan to value of 80% with no business accounts required. Call us for more information or <a href=\"https://secure.amazingmortgages.co.uk/apply_now_dm.asp\">click here to find out more</a>.</p>\n\n	<p>Many company directors feel more comfortable buying a property than investing in pensions. They feel that this is more under their control as they have an intimate knowledge of their locality. Many company directors also feel a need to protect themselves from their own clearing bank and find a cheaper source of expansion monies. Take a look at our Director mortgage <a href=\"/faq.htm\">FAQ</a> to learn more about the special opportunities that exist for company directors and the mortgage products that we can tailor to your specific needs.</p>",
+			"Company Director's Limited Status Scheme",
+			"self-certif",
+			"self-c",
+			"self-certif",
+			"0800",
+			"<strong class=\"highlight\">01202 937444</strong>",
+			"<p>Call <strong class=\"highlight\">01202 937444</strong></p>",
+			"01202 937444",
+			"or Call us on 01202 937444",
+			"self-cert",
+			"0800",
+			"@include container;",
+			"Within the special arrangements",
+			"appropriate",
+			"cost affective",
+			"office",
+			"apply now",
+			"<li class=\"mp_enquire\"><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Apply Now</a></li>",
+			"<p><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Apply Now!</a></p>",
+			"<a href=\"https://secure.amazingmortgages.co.uk/apply_now_dm.asp\">Apply Now</a>",
+			"apply now",
+			"self-certification",
+			"obligation",
+			"free",
+			"specialist providers",
+			"buy to let",
+			"redemption",
+			"we are indepen",
+			"<nav class=\"navSidebar\">\n		<ul>\n			<li><a href=\"/mortgage-planner.htm\">Getting Started</a></li>\n			<li><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Apply Now</a></li>\n			<li><a href=\"/faq.htm\">FAQs</a></li>\n			<li><a href=\"/aboutus.htm\">About us</a></li>\n		</ul>\n	</nav>",
+			"/images/girl.gif",
+			"<p>Free, easy, fast, and with no obligation</p>\n\n	<p>We check your needs against hundreds of mortgage deals.</p>\n\n	<p><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\"><strong class=\"highlight\">Apply Online Now</strong></a></p>\n\n	<p><img src=\"/images/girl.gif\" alt=\"Girl with telephone headset\"></p>\n\n	<p>or Call us on <strong class=\"highlight\">01202 937444</strong></p>\n\n	<p><strong class=\"highlight\">Buy that house today!</strong></p>\n\n	<p>More and more company directors are finding that the standard criteria of most mortgage lenders don't meet their own unique needs.</p>\n\n	<p>In short, if you know you can pay a mortgage, but have difficulty proving it in the usual way, you should be talking to us.</p>",
+			"avoncourt",
+			"<!-- {% include callus.html %} -->",
+			"{% include callus.html %}",
+			"£",
+			"exclude",
+			"or Apply now",
+			"or Enquire Now",
+			" highlightBrand",
+			"\"highlightBrand",
+			"highlightBrand",
+			"<li><a href=\"/topics/whats-involved.htm\"><strong>What is involved?</strong></a></li>",
+			"<li><a href=\"/topics/how-much.htm\"><strong>How Much can I Borrow?</strong></a></li>",
+			"<li><a href=\"/topics/what-kind.htm\"><strong>What kind of Mortgage?</strong></a></li>",
+			"<li><a href=\"/topics/what-fees.htm\"><strong>What are the fees?</strong></a></li>",
+			"<p><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\"><strong class=\"highlight\">Apply Online Now</strong></a></p>",
+			"<p><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\"><strong class=\"highlight\">Enquire Online Now</strong></a></p>",
+			"enquire",
+			"<li><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Enquire Now</a></li>",
+			"<li><a href=\"/\">HOME</a></li>",
+			"T&C's",
+			"<li class=\"sb_gettingStarted\">",
+			"<strong>",
+			"highlight",
+			"secondary",
+			"default",
+			"http:",
+			"faq.html",
+			".html",
+			"Mortgage",
+			"Mortgages",
+			"HOME",
+			"http://www.director-mortgages.clearattitude.com",
+			"£",
+			"Enquire",
+			"HOME",
+			"Enquire",
+			"enquire",
+			"listMortgagePlanner",
+			";\n",
+			"banner",
+			"theme",
+			"eventClub",
+			"location",
+			"Schedule",
+			"eventMonth",
+			"</p>",
+			"layout",
+			"module",
+			"location",
+			"date",
+			"profile",
+			"div",
+			"table",
+			"	",
+			"5",
+			".",
+			"import",
+			"imports",
+			"import",
+			"\";\n",
+			"// ** @section:",
+			"Auckland",
+			"<li></li>",
+			"ns_heading",
+			"<h3>",
+			"#ks_",
+			"<h3>",
+			"</pre>",
+			"<code>",
+			"layoutFooter",
+			";\n",
+			"ID_formSolitaryCheckbox",
+			"formfieldID13",
+			"formSolitaryCheckbox",
+			"formfieldID11",
+			"formTextarea",
+			"formfieldID09",
+			"formfieldID08",
+			"ID_formRadio01",
+			"formfieldID07",
+			"formfieldID06",
+			"formfieldID05",
+			"formfieldID04",
+			"formCheckbox",
+			"formfieldID12",
+			"formfieldID03",
+			"formfieldID10",
+			"formfieldID02",
+			"formInstructions",
+			"formRequired",
+			"formValid"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"to meet your needs",
+			"<li class=\"mp_enquire\"><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Enquire Now</a></li>",
+			"<p><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Enquire Now!</a></p>",
+			"<a href=\"https://secure.amazingmortgages.co.uk/apply_now_dm.asp\">Enquire Now</a>",
+			"{% include callus.html %}",
+			"<!-- {% include callus.html %} -->",
+			"&pound;",
+			"or Apply Now",
+			"or Apply now",
+			" brand",
+			"\"brand",
+			"<li><a href=\"/topics/whats-involved.htm\">What is involved?</a></li>",
+			"<li><a href=\"/topics/how-much.htm\">How Much can I Borrow?</a></li>",
+			"<li><a href=\"/topics/what-kind.htm\">What kind of Mortgage?</a></li>",
+			"<li><a href=\"/topics/what-fees.htm\">What are the fees?</a></li>",
+			"<p><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\"><strong class=\"highlight\">Apply Online Now</strong></a></p>",
+			"<li><a href=\"https://secure.amazingmortgages.co.uk/apply_now_itcm.asp\">Apply Now</a></li>",
+			"<li><a href=\"/\">Home</a></li>",
+			"faq.htm",
+			"Morgage",
+			"&pound;",
+			"{% block \"title\" %}",
+			"*/\n",
+			"// 3",
+			"// 2",
+			"// 1",
+			"($double-radius);",
+			"($default-radius);",
+			"DDDDDD",
+			"#FFFF97;",
+			"#CCCCCC;",
+			"#EEEEEE;",
+			"#000000;",
+			"#BBBBBB;",
+			"#FFFFFF;",
+			"#E4ECF0;",
+			"#555555;",
+			"#DDDDDD;",
+			"#333333;",
+			"#EFEFEF",
+			"#666666;",
+			"#CCCCCC;",
+			"#000000;",
+			"#B8B8B9;",
+			"#FFFFFF;",
+			"#EEEEEE;",
+			"#FFFFFF;",
+			"#308CB5;",
+			"#EEEEEE;",
+			"#E9E9E9;",
+			"#DDDDDD;",
+			"<p class=\"prototype\">[/PROTOTYPE HTML]</p>",
+			"<p class=\"prototype\">[PROTOTYPE HTML]</p>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"how",
+				"topics/how-much.htm"
+			],
+			[
+				"ab",
+				"aboutus.htm"
+			],
+			[
+				"in",
+				"index.htm"
+			],
+			[
+				"de",
+				"_layouts/default.html"
+			],
+			[
+				"pla",
+				"css-src/partials/navigation/_planner.scss"
+			],
+			[
+				"he",
+				"css-src/partials/default-layout/_layout-header.scss"
+			],
+			[
+				"foo",
+				"css-src/partials/default-layout/_layout-footer.scss"
+			],
+			[
+				"sid",
+				"css-src/partials/navigation/_sidebar.scss"
+			],
+			[
+				"call",
+				"_includes/callus.html"
+			],
+			[
+				"cont",
+				"contact.htm"
+			],
+			[
+				"faq",
+				"faq.htm"
+			],
+			[
+				"cal",
+				"_includes/callus.html"
+			],
+			[
+				"abou",
+				"aboutus.htm"
+			],
+			[
+				"buy",
+				"_includes/buythathousetoday.html"
+			],
+			[
+				"ind",
+				"index.htm"
+			],
+			[
+				"fa",
+				"faq.htm"
+			],
+			[
+				"ter",
+				"terms.htm"
+			],
+			[
+				"kin",
+				"topics/what-kind.htm"
+			],
+			[
+				"nav",
+				"_includes/navsidebar.html"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
+			[
+				"mor",
+				"mortgage-planner.htm"
+			],
+			[
+				"what",
+				"topics/what-fees.htm"
+			],
+			[
+				"bu",
+				"_includes/buythathousetoday.html"
+			],
+			[
+				"con",
+				"contact.htm"
+			],
+			[
+				"f",
+				"faq.htm"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"h",
+				"css-src/partials/elements/_hx.scss"
+			],
+			[
+				"pr",
+				"css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"pl",
+				"css-src/partials/navigation/_planner.scss"
+			],
+			[
+				"nava",
+				"css-src/partials/navigation/_planner.scss"
+			],
+			[
+				"term",
+				"terms.htm"
+			],
+			[
+				"star",
+				"css-src/partials/modules/_list-star.scss"
+			],
+			[
+				"planner",
+				"css-src/partials/navigation/_planner.scss"
+			],
+			[
+				"mo",
+				"mortgage-planner.htm"
+			],
+			[
+				"hi",
+				"css-src/partials/modules/_highlight.scss"
+			],
+			[
+				"a",
+				"css-src/partials/elements/_a.scss"
+			],
+			[
+				"sp",
+				"css-src/partials/modules/_special-features.scss"
+			],
+			[
+				"sty",
+				"css-src/styles.scss"
+			],
+			[
+				"hig",
+				"css-src/partials/modules/_highlight.scss"
+			],
+			[
+				"col",
+				"css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"head",
+				"css-src/partials/default-layout/_layout-header.scss"
+			],
+			[
+				"fon",
+				"css-src/partials/mixins/_font-stacks.scss"
+			],
+			[
+				"hea",
+				"css-src/partials/default-layout/_layout-header.scss"
+			],
+			[
+				"uk",
+				"Search/UK-mortgages.htm"
+			],
+			[
+				"index",
+				"index.htm"
+			],
+			[
+				"dire",
+				"Search/director-mortgages.htm"
+			],
+			[
+				"di",
+				"Search/director-property-loan.htm"
+			],
+			[
+				"dor",
+				"Search/director-mortgages.htm"
+			],
+			[
+				"dir",
+				"Search/director-mortgages.htm"
+			],
+			[
+				"search",
+				"Search/searchindex.htm"
+			],
+			[
+				"fees",
+				"_site/topics/what-fees.htm"
+			],
+			[
+				"fee",
+				"topics/what-fees.htm"
+			],
+			[
+				"inv",
+				"topics/whats-involved.htm"
+			],
+			[
+				"ho",
+				"topics/how-much.htm"
+			],
+			[
+				"hx",
+				"css-src/partials/elements/_hx.scss"
+			],
+			[
+				"sup",
+				"css-src/partials/default-layout/_content-supporting.scss"
+			],
+			[
+				"lay",
+				"css-src/partials/default-layout/_main.scss"
+			],
+			[
+				"typ",
+				"css-src/partials/global/_typography.scss"
+			],
+			[
+				"ir",
+				"css-src/partials/helpers/_ir.scss"
+			],
+			[
+				"hid",
+				"css-src/partials/helpers/_hidden.scss"
+			],
+			[
+				"tim",
+				"css-src/partials/elements/_time.scss"
+			],
+			[
+				"_a",
+				"css-src/partials/elements/_a.scss"
+			],
+			[
+				"wra",
+				"css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"prof",
+				"css-src/partials/modules/_profile-detail.scss"
+			],
+			[
+				"font",
+				"css-src/partials/mixins/_font-stacks.scss"
+			],
+			[
+				"kit",
+				"kitchen-sink.html"
+			],
+			[
+				"sus",
+				"css-src/partials/settings/_susy.scss"
+			],
+			[
+				"typo",
+				"css-src/partials/global/_typography.scss"
+			],
+			[
+				"rgb",
+				"css-src/partials/mixins/_rgba-bg.scss"
+			],
+			[
+				"rbga",
+				"css-src/partials/global/_typography.scss"
+			],
+			[
+				"jq",
+				"js/vendor/jquery.min.js"
+			],
+			[
+				"c",
+				"css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"st",
+				"css/styles.css"
+			],
+			[
+				"dev",
+				"css-src/partials/development/_dev-layout.scss"
+			],
+			[
+				"layoutw",
+				"css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"norm",
+				"css-src/partials/global/_normalize.scss"
+			],
+			[
+				"str",
+				"css-src/partials/elements/_strong.scss"
+			],
+			[
+				"grid",
+				"grid.html"
+			],
+			[
+				"main",
+				"css-src/partials/default-layout/_main.scss"
+			],
+			[
+				"hr",
+				"css-src/partials/elements/_hr.scss"
+			],
+			[
+				"wrap",
+				"css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"mai",
+				"css-src/partials/default-layout/_main.scss"
+			],
+			[
+				"prim",
+				"css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"footer",
+				"css-src/partials/default-layout/_footer.scss"
+			],
+			[
+				"set",
+				"css-src/partials/settings/_susy.scss"
+			],
+			[
+				"foot",
+				"css-src/partials/default-layout/_footer.scss"
+			],
+			[
+				"layout",
+				"css-src/partials/development/_dev-layout.scss"
+			],
+			[
+				"styles",
+				"css/styles.css"
+			],
+			[
+				"html",
+				"css-src/partials/elements/_html.scss"
+			],
+			[
+				"",
+				"waggytails/waggytails/layout/css-src/partials/layout/_footer.scss"
+			],
+			[
+				"det",
+				"waggytails/waggytails/django-templates/show/details.html"
+			],
+			[
+				"for",
+				"waggytails/waggytails/layout/css-src/partials/global/_form.scss"
+			],
+			[
+				"ba",
+				"waggytails/waggytails/django-templates/base.html"
+			],
+			[
+				"vie",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"vi",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"s",
+				"waggytails/waggytails/layout/css-src/styles.scss"
+			],
+			[
+				"ur",
+				"waggytails/waggytails/urls.py"
+			],
+			[
+				"b",
+				"waggytails/waggytails/django-templates/base.html"
+			],
+			[
+				"t",
+				"waggytails/waggytails/layout/css-src/partials/global/_typography.scss"
+			],
+			[
+				"u",
+				"waggytails/waggytails/urls.py"
+			],
+			[
+				"sidebar",
+				"waggytails/waggytails/layout/.sass-cache/57074ca2f01dfeffc80d1bdd40c0033de225e125/_shared.sassc"
+			],
+			[
+				"fo",
+				"waggytails/waggytails/forms.py"
+			],
+			[
+				"lis",
+				"waggytails/waggytails/django-templates/class/list.html"
+			],
+			[
+				"mod",
+				"waggytails/waggytails/models.py"
+			],
+			[
+				"no",
+				"waggytails/waggytails/layout/css-src/partials/global/_normalize.scss"
+			],
+			[
+				"deta",
+				"waggytails/waggytails/django-templates/class/details.html"
+			],
+			[
+				"sho",
+				"waggytails/waggytails/django-templates/show/list.html"
+			],
+			[
+				"show",
+				"waggytails/waggytails/django-templates/show/list.html"
+			],
+			[
+				"list",
+				"waggytails/waggytails/django-templates/dog/list.html"
+			],
+			[
+				"log",
+				"waggytails/waggytails/django-templates/home/logged-in.html"
+			],
+			[
+				"hom",
+				"waggytails/waggytails/django-templates/logged-in-home.html"
+			],
+			[
+				"v",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"l",
+				"waggytails/waggytails/django-templates/registration/login.html"
+			],
+			[
+				"li",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Link"
+			],
+			[
+				"ma",
+				"waggytails/manage.py"
+			],
+			[
+				"man",
+				"waggytails/manage.py"
+			],
+			[
+				"view",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"se",
+				"waggytails/waggytails/settings.py"
+			],
+			[
+				"or",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Ordered list"
+			],
+			[
+				"un",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Unordered list"
+			],
+			[
+				"tex",
+				"waggytails/waggytails/django-templates/style-guide/snippets/form/Text field"
+			],
+			[
+				"00",
+				"waggytails/waggytails/migrations/0003_auto__del_dogsex__add_doggender__del_field_dog_dog_sex__add_field_dog_.py"
+			],
+			[
+				"nor",
+				"css-src/partials/global/_normalize.scss"
+			],
+			[
+				".scss",
+				".sass-cache/28018ba867f95362aa622a1c7043038960f456c6/ie.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/kristina/Sites/kaelifa.com/www.kaelifa.com.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}
