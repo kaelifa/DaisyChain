@@ -1,0 +1,34 @@
+/**
+ * @description    Styling for the main layout wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:35
+ *
+ *
+ *     @example
+ *                 <div class="layoutWrapper"></div>
+ *
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutWrapper
+ */
+.layoutWrapper {
+	@include container;
+	margin: 0 0 - $grid-padding;
+	@include at-breakpoint($mobile-landscape) {
+		@include container;
+		margin: 0 0 - $grid-padding;
+	}
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+	}
+}

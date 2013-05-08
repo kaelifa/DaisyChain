@@ -1,0 +1,1175 @@
+@charset "UTF-8";
+@import url("//hello.myfonts.net/count/24f625");
+/**
+ * @projectDescription    kaelifa.com
+ *               @file    styles.css
+ *             @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *            @version    2.0
+ *               @date    2013-04-23 19:45
+ */
+/** @section     Compass */
+/** @section     Grid */
+/** @section     Settings */
+/** @section     Variables */
+/** @section     Mixins */
+@font-face {
+  font-family: 'JustVectorRegular';
+  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.svg#webfontmuk63VQd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JustVector';
+  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.svg#webfontkw9J4lGf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @license
+ * MyFonts Webfont Build ID 2422309, 2012-12-02T09:08:37-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Yummo by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/yummo/regular/
+ *
+ * Webfont: Yummo Semi Bold by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/yummo/semi-bold/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2422309
+ * Webfonts copyright: Copyright (c) 2011 by Ryoichi Tsunekawa. All rights reserved.
+ *
+ * © 2012 Bitstream Inc
+*/
+@font-face {
+  font-family: 'Yummo-Regular';
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yummo-SemiBold';
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * @description    Mixin for font-stacks
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:36
+ *
+ *
+ *     @example
+ *                 @include headline-font-stack;
+ *
+ *
+ *        @type    mixin
+ *       @notes
+ */
+/**
+ * @section        default-font-stack
+ */
+/**
+ * @section        headline-font-stack
+ */
+/**
+ * @section        logo-font-stack
+ */
+/** @section     Global */
+/* line 14, ../../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../css-src/partials/global/_selection.scss */
+::-moz-selection {
+  background: black;
+  text-shadow: none;
+}
+
+/* line 12, ../css-src/partials/global/_selection.scss */
+::selection {
+  background: black;
+  text-shadow: none;
+}
+
+/**
+ * @description    normalize reset stylesheet
+ *
+ *      @author    normalize.css v2.0.1 | MIT License | git.io/normalize
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    global reset
+ *       @notes
+ */
+/**
+ *     @section   HTML5 display definitions
+ *       @notes   Corrects `block` display not defined in IE 8/9.
+ */
+/* line 32, ../css-src/partials/global/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ *       @notes   Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 41, ../css-src/partials/global/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ *       @notes   Prevents modern browsers from displaying `audio` without controls.
+ *
+ */
+/* line 54, ../css-src/partials/global/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 63, ../css-src/partials/global/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 80, ../css-src/partials/global/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 89, ../css-src/partials/global/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 102, ../css-src/partials/global/_normalize.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 110, ../css-src/partials/global/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 118, ../css-src/partials/global/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 126, ../css-src/partials/global/_normalize.scss */
+mark {
+  background: black;
+  color: #1a1a1a;
+}
+
+/* line 138, ../css-src/partials/global/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 147, ../css-src/partials/global/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 157, ../css-src/partials/global/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 165, ../css-src/partials/global/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 174, ../css-src/partials/global/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 181, ../css-src/partials/global/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 185, ../css-src/partials/global/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 198, ../css-src/partials/global/_normalize.scss */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* line 207, ../css-src/partials/global/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 219, ../css-src/partials/global/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 231, ../css-src/partials/global/_normalize.scss */
+fieldset {
+  border: 1px solid gray;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 243, ../css-src/partials/global/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 258, ../css-src/partials/global/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 270, ../css-src/partials/global/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 285, ../css-src/partials/global/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 295, ../css-src/partials/global/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 304, ../css-src/partials/global/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+}
+
+/* line 314, ../css-src/partials/global/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 327, ../css-src/partials/global/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 336, ../css-src/partials/global/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 347, ../css-src/partials/global/_normalize.scss */
+textarea {
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+}
+
+/* line 6, ../css-src/partials/global/_typography.scss */
+html {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+/* line 10, ../css-src/partials/global/_typography.scss */
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+@media (min-width: 55em) {
+  /* line 10, ../css-src/partials/global/_typography.scss */
+  body {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+/* line 17, ../css-src/partials/global/_typography.scss */
+h1 {
+  font-size: 30px;
+  font-size: 3rem;
+  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+  text-shadow: 0 0 1px #888;
+  margin: 0 0 0.5em 0;
+}
+@media (min-width: 55em) {
+  /* line 17, ../css-src/partials/global/_typography.scss */
+  h1 {
+    font-size: 55px;
+    font-size: 5.5rem;
+    font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+    text-shadow: 0 0 1px #888;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+/* line 33, ../css-src/partials/global/_typography.scss */
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
+  text-shadow: 0 0 1px #888;
+  font-weight: normal;
+}
+
+/* line 37, ../css-src/partials/global/_typography.scss */
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+@media (min-width: 55em) {
+  /* line 37, ../css-src/partials/global/_typography.scss */
+  h2 {
+    font-size: 42px;
+    font-size: 4.2rem;
+  }
+}
+
+/* line 46, ../css-src/partials/global/_typography.scss */
+h3 {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+@media (min-width: 55em) {
+  /* line 46, ../css-src/partials/global/_typography.scss */
+  h3 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+}
+
+/* line 55, ../css-src/partials/global/_typography.scss */
+h4 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* line 59, ../css-src/partials/global/_typography.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+/* line 62, ../css-src/partials/global/_typography.scss */
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* line 67, ../css-src/partials/global/_typography.scss */
+.formField,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* line 71, ../css-src/partials/global/_typography.scss */
+small {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+/* line 74, ../css-src/partials/global/_typography.scss */
+button {
+  font-weight: bold;
+}
+
+/** @section     Elements */
+/**
+ * @description    Styling for the html element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <html></html>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        html
+ */
+/* line 21, ../css-src/partials/elements/_html.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-y: scroll;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+/**
+ * @description    Creates the default styling for the body element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:27
+ *
+ *
+ *     @example
+ *                 <body>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        body
+ */
+/* line 21, ../css-src/partials/elements/_body.scss */
+body {
+  background: white;
+  color: #1a1a1a;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/elements/_body.scss */
+  body {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+/**
+ * @description    Styling for the nav element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <nav></nav>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        nav
+ */
+/* line 24, ../css-src/partials/elements/_nav.scss */
+nav ul,
+nav ol,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * @description    Creates the default styling for links
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:27
+ *
+ *
+ *     @example
+ *                 <a href=""></a>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        a
+ */
+/* line 21, ../css-src/partials/elements/_a.scss */
+a {
+  color: #e41b5b;
+}
+
+/**
+ * @description    Creates the default styling for paragraphs
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <p></p>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        p
+ */
+/* line 21, ../css-src/partials/elements/_p.scss */
+p {
+  margin: 1em 0;
+}
+
+/**
+ * @description    Heading styles
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <h1></h1>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        h1
+ */
+/* line 21, ../css-src/partials/elements/_hx.scss */
+h1 {
+  color: #e41b5b;
+  font-size: 30px;
+  font-size: 3rem;
+  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+  text-shadow: 0 0 1px #888;
+  margin: 0 0 0.5em 0;
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/elements/_hx.scss */
+  h1 {
+    font-size: 55px;
+    font-size: 5.5rem;
+    font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+    text-shadow: 0 0 1px #888;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+/* line 37, ../css-src/partials/elements/_hx.scss */
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
+  text-shadow: 0 0 1px #888;
+  font-weight: normal;
+}
+
+/**
+ * @section        h2
+ */
+/* line 45, ../css-src/partials/elements/_hx.scss */
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+@media (min-width: 55em) {
+  /* line 45, ../css-src/partials/elements/_hx.scss */
+  h2 {
+    font-size: 42px;
+    font-size: 4.2rem;
+  }
+}
+
+/**
+ * @section        h3
+ */
+/* line 55, ../css-src/partials/elements/_hx.scss */
+h3 {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+@media (min-width: 55em) {
+  /* line 55, ../css-src/partials/elements/_hx.scss */
+  h3 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+}
+
+/**
+ * @section        h4
+ */
+/* line 65, ../css-src/partials/elements/_hx.scss */
+h4 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/**
+ * @section        h5
+ */
+/* line 73, ../css-src/partials/elements/_hx.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+/**
+ * @section        h6
+ */
+/* line 80, ../css-src/partials/elements/_hx.scss */
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/**
+ * @description    Default styling for the horizontal rule element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:27
+ *
+ *
+ *     @example
+ *                 <hr />
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        hr
+ */
+/* line 21, ../css-src/partials/elements/_hr.scss */
+hr {
+  border: 0;
+  border-top: 1px solid gray;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/**
+ * @description    Creates the default styling for <em> element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:27
+ *
+ *
+ *     @example
+ *                 <em></em>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        em
+ */
+/* line 21, ../css-src/partials/elements/_em.scss */
+em {
+  font-style: italic;
+}
+
+/**
+ * @description    Styling for the strong element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <strong></strong>
+ *
+ *
+ *        @type    element
+ *       @notes   Also covers styling for <b>
+ */
+/**
+ * @section        strong
+ */
+/* line 22, ../css-src/partials/elements/_strong.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * @description    Form styling
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:27
+ *
+ *
+ *     @example
+ *                 <form>
+</form>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        form
+ */
+/**
+ * @description    Creates the default styling for time element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <time datetime="2013-04-20">April 20</time>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        time
+ */
+/* line 21, ../css-src/partials/elements/_time.scss */
+time {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+/** @section     Layout */
+/**
+ * @description    Styling for the main layout wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:35
+ *
+ *
+ *     @example
+ *                 <div class="layoutWrapper"></div>
+ *
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutWrapper
+ */
+/* line 21, ../css-src/partials/default-layout/_layout-wrapper.scss */
+.layoutWrapper {
+  *zoom: 1;
+  max-width: 26em;
+  _width: 26em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 -1em;
+}
+/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.layoutWrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 31em) {
+  /* line 21, ../css-src/partials/default-layout/_layout-wrapper.scss */
+  .layoutWrapper {
+    max-width: 31em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 -1em;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutWrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/default-layout/_layout-wrapper.scss */
+  .layoutWrapper {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutWrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/default-layout/_layout-wrapper.scss */
+  .layoutWrapper {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutWrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/**
+ * @description    Styling for the main layout header
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:25
+ *
+ *
+ *     @example
+ *                 <header class="layoutHeader" role="banner">
+ *
+ *                 </header>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutHeader
+ */
+/**
+ * @description    Styling for the main layout content area
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:25
+ *
+ *
+ *     @example
+ *                 <div class="layoutMain" role="main" id="main">
+ *
+ *                 </div>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutMain
+ */
+/**
+ * @description    Stying for the main layout footer
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:39
+ *
+ *
+ *     @example
+ *                 <footer class="layoutFooter" role="contentinfo">
+ *
+ *                 </footer>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutFooter
+ */
+/* line 22, ../css-src/partials/default-layout/_layout-footer.scss */
+.layoutFooter {
+  *zoom: 1;
+  max-width: 26em;
+  _width: 26em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.layoutFooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 41em) {
+  /* line 22, ../css-src/partials/default-layout/_layout-footer.scss */
+  .layoutFooter {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 55em) {
+  /* line 22, ../css-src/partials/default-layout/_layout-footer.scss */
+  .layoutFooter {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/** @section     Navigation */
+/**
+ * @description    styling for navPrimary
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:38
+ *
+ *
+ *     @example
+ *                 <nav class="navPrimary" role="navigation"></nav>
+ *
+ *
+ *        @type    nav
+ *       @notes
+ */
+/**
+ * @section        navPrimary
+ */
+/* line 21, ../css-src/partials/navigation/_primary.scss */
+.navPrimary {
+  *zoom: 1;
+  max-width: 26em;
+  _width: 26em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.navPrimary:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/navigation/_primary.scss */
+  .navPrimary {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .navPrimary:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/navigation/_primary.scss */
+  .navPrimary {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .navPrimary:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* line 37, ../css-src/partials/navigation/_primary.scss */
+.navPrimary li {
+  float: left;
+  margin-right: 1em;
+}
+/* line 41, ../css-src/partials/navigation/_primary.scss */
+.navPrimary a {
+  display: block;
+  line-height: 60px;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+/** @section     Modules */
+/** @section     Plugins */
+/* line 1, ../css-src/partials/plugins/_disqus.scss */
+#disqus_thread {
+  margin-top: 3em;
+}
+
+/** @section     Helpers */
+/** @section     Print */
+@media print {
+  /* line 2, ../css-src/partials/media/_print.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 10, ../css-src/partials/media/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 14, ../css-src/partials/media/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 18, ../css-src/partials/media/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 28, ../css-src/partials/media/_print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 33, ../css-src/partials/media/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid gray;
+    page-break-inside: avoid;
+  }
+
+  /* line 38, ../css-src/partials/media/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 43, ../css-src/partials/media/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../css-src/partials/media/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 57, ../css-src/partials/media/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 63, ../css-src/partials/media/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/** @section     Development */

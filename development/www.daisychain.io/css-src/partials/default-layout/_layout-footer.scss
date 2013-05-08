@@ -1,0 +1,32 @@
+/**
+ * @description    Stying for the main layout footer
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:39
+ *
+ *
+ *     @example
+ *                 <footer class="layoutFooter" role="contentinfo">
+ *
+ *                 </footer>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutFooter
+ */
+.layoutFooter {
+	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+		margin-bottom: 5em;
+	}
+	margin-top: 2em;
+}

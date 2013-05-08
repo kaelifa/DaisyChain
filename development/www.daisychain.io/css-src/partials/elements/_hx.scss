@@ -1,0 +1,82 @@
+/**
+ * @description    Heading styles
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <h1></h1>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        h1
+ */
+h1 {
+	color: $color-brand-primary;
+	@include font-size(3.0);
+	@include logo-font-stack;
+	margin: 0 0 0.5em 0;
+	@include at-breakpoint($computer) {
+		@include font-size(5.5);
+		@include logo-font-stack;
+		margin-top: 24px;
+		margin-bottom: 12px;
+	}
+}
+
+h2,
+h3,
+h4,
+h5 {
+	@include headline-font-stack;
+	font-weight: normal;
+}
+
+/**
+ * @section        h2
+ */
+h2 {
+	@include font-size(2.4);
+	@include at-breakpoint($computer) {
+		@include font-size(4.2);
+	}
+}
+
+/**
+ * @section        h3
+ */
+h3 {
+	@include font-size(2.2);
+	@include at-breakpoint($computer) {
+		@include font-size(2.6);
+	}
+}
+
+/**
+ * @section        h4
+ */
+h4 {
+	@include font-size(2.0);
+	font-weight: bold;
+}
+
+/**
+ * @section        h5
+ */
+h5 {
+	@include font-size(1.6);
+}
+
+/**
+ * @section        h6
+ */
+h6 {
+	@include font-size(1.4);
+}

@@ -1,0 +1,39 @@
+/**
+ * @description    Mixin for font-stacks
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-24 14:36
+ *
+ *
+ *     @example
+ *                 @include headline-font-stack;
+ *
+ *
+ *        @type    mixin
+ *       @notes
+ */
+
+
+/**
+ * @section        default-font-stack
+ */
+@mixin default-font-stack {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/**
+ * @section        headline-font-stack
+ */
+@mixin headline-font-stack {
+	font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
+	text-shadow: 0 0 1px #888;
+}
+
+/**
+ * @section        logo-font-stack
+ */
+@mixin logo-font-stack {
+	font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+	text-shadow: 0 0 1px #888;
+}
