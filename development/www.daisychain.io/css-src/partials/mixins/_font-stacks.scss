@@ -32,7 +32,8 @@
 /**
  * @section        logo-font-stack
  */
+@import url(http://fonts.googleapis.com/css?family=Sofia);
 @mixin logo-font-stack {
-	font-family: "Arial Bold", Gadget, sans-serif;
+	font-family: "Sofia", Gadget, sans-serif;
 	// @include single-text-shadow;
 }

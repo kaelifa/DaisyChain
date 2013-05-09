@@ -6,7 +6,7 @@ $color-black:                       #000;
 
 // Hex
 $color-brand-primary:               #006837;    // Dark Green
-$color-brand-secondary:             #A5E26F;    // Green
+$color-brand-secondary:             #7AC943;    // Green
 $color-brand-tertiary:              #000;    // Black
 
 $color-brand-complementary1:        #000;    // Black
@@ -14,7 +14,7 @@ $color-brand-complementary2:        #000;    // Black
 
 // RBG
 $color-brand-rgb-primary:           0,104,55; // Dark Green - #006837
-$color-brand-rgb-secondary:         165,226,111;  // Green - #A5E26F
+$color-brand-rgb-secondary:         122,201,67;  // Green - #7AC943
 $color-brand-rgb-tertiary:          0,0,0;  // Black - #000
 
 $color-brand-rgb-complementary1:    0,0,0;  // Black - #000
@@ -26,6 +26,7 @@ $color-copy:                        lighten($color-black, 10%);
 $color-text-shadow:                 darken($color-brand-primary, 25%);
 $color-page-bg:                     $color-brand-secondary;
 $color-header-bg:                   $color-white;
+$color-main-bg:                     $color-white;
 
 $color-border:                      lighten($color-black, 50%);
 

@@ -20,5 +20,7 @@
  * @section        layoutMain
  */
 .layoutMain {
-
+	background: $color-main-bg;
+	@include border-radius(25px);
+	padding: 1em 2em;
 }

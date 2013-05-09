@@ -20,6 +20,7 @@
  */
 .logo {
 	background: transparent url("/template-assets/images/background/daisy.png") no-repeat 0% 0% scroll;
+	color: $color-white;
 	@include logo-font-stack;
 	@include font-size(5.6);
 	padding-left: 77px;
