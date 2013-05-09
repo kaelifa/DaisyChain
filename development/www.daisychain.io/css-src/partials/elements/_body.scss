@@ -19,10 +19,12 @@
  * @section        body
  */
 body {
-	background: $color-page-bg;
+	background: $color-page-bg url("/template-assets/images/background/fence.png") repeat-x 100% 100% scroll;
 	color: $color-copy;
 	@include default-font-stack;
 	@include font-size(1.6);
+	line-height: 1.6;
+	padding-bottom: 100px;
 	@include at-breakpoint($computer) {
 		@include font-size(1.8);
 	}

@@ -3,17 +3,6 @@
 // Body line height: 24px/1.5rem/1.5em;
 // Scale factor:1.618;
 
-html {
-	@include default-font-stack;
-	font-size: 62.5%;
-}
-body {
-	@include font-size(1.6);
-	line-height: 1.6;
-	@include at-breakpoint($computer) {
-		@include font-size(1.8);
-	}
-}
 h1 {
 	@include font-size(3.0);
 	@include logo-font-stack;
@@ -61,16 +50,4 @@ h5 {
 }
 h6 {
 	@include font-size(1.4);
-}
-.formField,
-p,
-ul {
-	margin-top: 0;
-	margin-bottom: 1em;
-}
-small {
-	@include font-size(1.0);
-}
-button {
-	font-weight: bold;
 }

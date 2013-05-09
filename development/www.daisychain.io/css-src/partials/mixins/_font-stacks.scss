@@ -26,14 +26,13 @@
  * @section        headline-font-stack
  */
 @mixin headline-font-stack {
-	font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
-	text-shadow: 0 0 1px #888;
+	font-family: "Arial Bold", Gadget, sans-serif;
 }
 
 /**
  * @section        logo-font-stack
  */
 @mixin logo-font-stack {
-	font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
-	text-shadow: 0 0 1px #888;
+	font-family: "Arial Bold", Gadget, sans-serif;
+	// @include single-text-shadow;
 }

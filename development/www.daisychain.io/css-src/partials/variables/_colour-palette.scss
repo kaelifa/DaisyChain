@@ -5,16 +5,16 @@ $color-white:                       #fff;
 $color-black:                       #000;
 
 // Hex
-$color-brand-primary:               #e41b5b;    // Pink
-$color-brand-secondary:             #000;    // Black
+$color-brand-primary:               #006837;    // Dark Green
+$color-brand-secondary:             #A5E26F;    // Green
 $color-brand-tertiary:              #000;    // Black
 
 $color-brand-complementary1:        #000;    // Black
 $color-brand-complementary2:        #000;    // Black
 
 // RBG
-$color-brand-rgb-primary:           228,27,91; // Pink - #e41b5b
-$color-brand-rgb-secondary:         0,0,0;  // Black - #000
+$color-brand-rgb-primary:           0,104,55; // Dark Green - #006837
+$color-brand-rgb-secondary:         165,226,111;  // Green - #A5E26F
 $color-brand-rgb-tertiary:          0,0,0;  // Black - #000
 
 $color-brand-rgb-complementary1:    0,0,0;  // Black - #000
@@ -23,8 +23,9 @@ $color-brand-rgb-complementary2:    0,0,0;  // Black - #000
 // $color-brand-complementary:         rgba(0, 0, 0, 1);
 
 $color-copy:                        lighten($color-black, 10%);
-$color-text-shadow:                 darken($color-white, 5%);
-$color-page-bg:                     $color-white;
+$color-text-shadow:                 darken($color-brand-primary, 25%);
+$color-page-bg:                     $color-brand-secondary;
+$color-header-bg:                   $color-white;
 
 $color-border:                      lighten($color-black, 50%);
 

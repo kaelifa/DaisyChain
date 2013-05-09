@@ -49,6 +49,7 @@
 @import "partials/elements/strong";
 @import "partials/elements/form";
 @import "partials/elements/time";
+@import "partials/elements/small";
 
 /** @section     Layout */
 @import "partials/default-layout/layout-wrapper";
@@ -61,6 +62,7 @@
 
 /** @section     Modules */
 @import "sassy-buttons";
+@import "partials/modules/logo";
 
 /** @section     Plugins */
 // @import "partials/plugins/XXXX";

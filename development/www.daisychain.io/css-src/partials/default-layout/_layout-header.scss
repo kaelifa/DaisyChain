@@ -20,5 +20,8 @@
  * @section        layoutHeader
  */
 .layoutHeader {
-
+	background: transparent url("/template-assets/images/background/butterfly.png") no-repeat 30% 0% scroll;
+	p {
+		margin-top: 0;
+	}
 }

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("//hello.myfonts.net/count/24f625");
 /**
  * @projectDescription    DaisyChain
  *               @file    styles.css
@@ -12,59 +11,6 @@
 /** @section     Settings */
 /** @section     Variables */
 /** @section     Mixins */
-@font-face {
-  font-family: 'JustVectorRegular';
-  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot");
-  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.svg#webfontmuk63VQd") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'JustVector';
-  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot");
-  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.svg#webfontkw9J4lGf") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* @license
- * MyFonts Webfont Build ID 2422309, 2012-12-02T09:08:37-0500
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: Yummo by Flat-it
- * URL: http://www.myfonts.com/fonts/flat-it/yummo/regular/
- *
- * Webfont: Yummo Semi Bold by Flat-it
- * URL: http://www.myfonts.com/fonts/flat-it/yummo/semi-bold/
- *
- *
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2422309
- * Webfonts copyright: Copyright (c) 2011 by Ryoichi Tsunekawa. All rights reserved.
- *
- * © 2012 Bitstream Inc
-*/
-@font-face {
-  font-family: 'Yummo-Regular';
-  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot");
-  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.svg#wf") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Yummo-SemiBold';
-  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot");
-  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.svg#wf") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /**
  * @description    Mixin for font-stacks
  *
@@ -341,117 +287,75 @@ textarea {
 }
 
 /* line 6, ../css-src/partials/global/_typography.scss */
-html {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  font-size: 62.5%;
-}
-
-/* line 10, ../css-src/partials/global/_typography.scss */
-body {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.6;
-}
-@media (min-width: 55em) {
-  /* line 10, ../css-src/partials/global/_typography.scss */
-  body {
-    font-size: 18px;
-    font-size: 1.8rem;
-  }
-}
-
-/* line 17, ../css-src/partials/global/_typography.scss */
 h1 {
   font-size: 30px;
   font-size: 3rem;
-  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
-  text-shadow: 0 0 1px #888;
+  font-family: "Arial Bold", Gadget, sans-serif;
   margin: 0 0 0.5em 0;
 }
 @media (min-width: 55em) {
-  /* line 17, ../css-src/partials/global/_typography.scss */
+  /* line 6, ../css-src/partials/global/_typography.scss */
   h1 {
     font-size: 55px;
     font-size: 5.5rem;
-    font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
-    text-shadow: 0 0 1px #888;
+    font-family: "Arial Bold", Gadget, sans-serif;
     margin-top: 24px;
     margin-bottom: 12px;
   }
 }
 
-/* line 33, ../css-src/partials/global/_typography.scss */
+/* line 22, ../css-src/partials/global/_typography.scss */
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
-  text-shadow: 0 0 1px #888;
+  font-family: "Arial Bold", Gadget, sans-serif;
   font-weight: normal;
 }
 
-/* line 37, ../css-src/partials/global/_typography.scss */
+/* line 26, ../css-src/partials/global/_typography.scss */
 h2 {
   font-size: 24px;
   font-size: 2.4rem;
 }
 @media (min-width: 55em) {
-  /* line 37, ../css-src/partials/global/_typography.scss */
+  /* line 26, ../css-src/partials/global/_typography.scss */
   h2 {
     font-size: 42px;
     font-size: 4.2rem;
   }
 }
 
-/* line 46, ../css-src/partials/global/_typography.scss */
+/* line 35, ../css-src/partials/global/_typography.scss */
 h3 {
   font-size: 22px;
   font-size: 2.2rem;
 }
 @media (min-width: 55em) {
-  /* line 46, ../css-src/partials/global/_typography.scss */
+  /* line 35, ../css-src/partials/global/_typography.scss */
   h3 {
     font-size: 26px;
     font-size: 2.6rem;
   }
 }
 
-/* line 55, ../css-src/partials/global/_typography.scss */
+/* line 44, ../css-src/partials/global/_typography.scss */
 h4 {
   font-size: 20px;
   font-size: 2rem;
   font-weight: bold;
 }
 
-/* line 59, ../css-src/partials/global/_typography.scss */
+/* line 48, ../css-src/partials/global/_typography.scss */
 h5 {
   font-size: 16px;
   font-size: 1.6rem;
 }
 
-/* line 62, ../css-src/partials/global/_typography.scss */
+/* line 51, ../css-src/partials/global/_typography.scss */
 h6 {
   font-size: 14px;
   font-size: 1.4rem;
-}
-
-/* line 67, ../css-src/partials/global/_typography.scss */
-.formField,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-/* line 71, ../css-src/partials/global/_typography.scss */
-small {
-  font-size: 10px;
-  font-size: 1rem;
-}
-
-/* line 74, ../css-src/partials/global/_typography.scss */
-button {
-  font-weight: bold;
 }
 
 /** @section     Elements */
@@ -502,11 +406,13 @@ html {
  */
 /* line 21, ../css-src/partials/elements/_body.scss */
 body {
-  background: white;
+  background: #a5e26f url("/template-assets/images/background/fence.png") repeat-x 100% 100% scroll;
   color: #1a1a1a;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
+  line-height: 1.6;
+  padding-bottom: 100px;
 }
 @media (min-width: 55em) {
   /* line 21, ../css-src/partials/elements/_body.scss */
@@ -563,7 +469,7 @@ nav li {
  */
 /* line 21, ../css-src/partials/elements/_a.scss */
 a {
-  color: #e41b5b;
+  color: #006837;
 }
 
 /**
@@ -609,11 +515,10 @@ p {
  */
 /* line 21, ../css-src/partials/elements/_hx.scss */
 h1 {
-  color: #e41b5b;
+  color: #006837;
   font-size: 30px;
   font-size: 3rem;
-  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
-  text-shadow: 0 0 1px #888;
+  font-family: "Arial Bold", Gadget, sans-serif;
   margin: 0 0 0.5em 0;
 }
 @media (min-width: 55em) {
@@ -621,8 +526,7 @@ h1 {
   h1 {
     font-size: 55px;
     font-size: 5.5rem;
-    font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
-    text-shadow: 0 0 1px #888;
+    font-family: "Arial Bold", Gadget, sans-serif;
     margin-top: 24px;
     margin-bottom: 12px;
   }
@@ -633,8 +537,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
-  text-shadow: 0 0 1px #888;
+  font-family: "Arial Bold", Gadget, sans-serif;
   font-weight: normal;
 }
 
@@ -816,6 +719,30 @@ time {
   margin: 1em 0;
 }
 
+/**
+ * @description    Creates the default styling for the <small> element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-05-09 15:57
+ *
+ *
+ *     @example
+ *                 <small>some small text</small>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        small
+ */
+/* line 21, ../css-src/partials/elements/_small.scss */
+small {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
 /** @section     Layout */
 /**
  * @description    Styling for the main layout wrapper
@@ -921,6 +848,15 @@ time {
 /**
  * @section        layoutHeader
  */
+/* line 22, ../css-src/partials/default-layout/_layout-header.scss */
+.layoutHeader {
+  background: transparent url("/template-assets/images/background/butterfly.png") no-repeat 30% 0% scroll;
+}
+/* line 24, ../css-src/partials/default-layout/_layout-header.scss */
+.layoutHeader p {
+  margin-top: 0;
+}
+
 /**
  * @description    Styling for the main layout content area
  *
@@ -1091,6 +1027,34 @@ time {
 }
 
 /** @section     Modules */
+/**
+ * @description    Styling the logo module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-05-09 13:35
+ *
+ *
+ *     @example
+ *                 <body>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        logo
+ */
+/* line 21, ../css-src/partials/modules/_logo.scss */
+.logo {
+  background: transparent url("/template-assets/images/background/daisy.png") no-repeat 0% 0% scroll;
+  font-family: "Arial Bold", Gadget, sans-serif;
+  font-size: 56px;
+  font-size: 5.6rem;
+  padding-left: 77px;
+  text-decoration: none;
+}
+
 /** @section     Plugins */
 /** @section     Helpers */
 /** @section     Print */
